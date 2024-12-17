@@ -100,11 +100,11 @@ Running yarn build-storybook will output a static Storybook in the storybook-sta
 Publish Storybook
 This tutorial uses Chromatic, a free publishing service made by the Storybook maintainers. It allows us to deploy and host our Storybook safely and securely in the cloud.
 
-View your Storybook at https://6761ca46f76975b4f875c313-jnnglkjkbj.chromatic.com/
+View your Storybook at https://6761ca46f76975b4f875c313-wgrytfmuct.chromatic.com/
 
 Continuous deployment with Chromatic
 Now that we've hosted our project in a GitHub repository, we can use a continuous integration (CI) service to deploy our Storybook automatically. GitHub Actions is a free CI service that's built into GitHub that makes automatic publishing easy.
-https://6761ca46f76975b4f875c313-mmmzrnvahq.chromatic.com/
+https://6761ca46f76975b4f875c313-wgrytfmuct.chromatic.com/
 
 Visual testing for Storybook
 Visual regression tests, also called visual tests, are designed to catch changes in appearance. They work by capturing screenshots of every story and comparing them commit-to-commit to surface changes. It's perfect for verifying graphical elements like layout, color, size, and contrast.
