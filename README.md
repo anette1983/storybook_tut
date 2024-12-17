@@ -109,3 +109,9 @@ https://6761ca46f76975b4f875c313-mmmzrnvahq.chromatic.com/
 Visual testing for Storybook
 Visual regression tests, also called visual tests, are designed to catch changes in appearance. They work by capturing screenshots of every story and comparing them commit-to-commit to surface changes. It's perfect for verifying graphical elements like layout, color, size, and contrast.
 
+Storybook helps us build components; testing helps us maintain them. This tutorial covers four types of UI testing: manual, accessibility, interaction, and visual regression. You can automate the last three by adding them to a CI as we've just finished setting up, and it helps us ship components without worrying about stowaway bugs. The whole workflow is illustrated below.
+
+https://storybook.js.org/docs/essentials/controls
+Storybook Controls gives you a graphical UI to interact with a component's arguments dynamically without needing to code. It creates an addon panel next to your component examples ("stories"), so you can edit them live.
+
+https://storybook.js.org/docs/get-started/install
