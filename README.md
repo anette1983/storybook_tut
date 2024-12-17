@@ -92,3 +92,16 @@ If you encounter an issue with the template, we encourage you to open an issue i
 1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
 2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
 3. See our official documentation at [Storybook](https://storybook.js.org/).
+
+To deploy Storybook, we first need to export it as a static web app. This functionality is already built-in to Storybook and pre-configured.
+
+Running yarn build-storybook will output a static Storybook in the storybook-static directory, which can then be deployed to any static site hosting service.
+
+Publish Storybook
+This tutorial uses Chromatic, a free publishing service made by the Storybook maintainers. It allows us to deploy and host our Storybook safely and securely in the cloud.
+
+View your Storybook at https://6761ca46f76975b4f875c313-jnnglkjkbj.chromatic.com/
+
+
+Continuous deployment with Chromatic
+Now that we've hosted our project in a GitHub repository, we can use a continuous integration (CI) service to deploy our Storybook automatically. GitHub Actions is a free CI service that's built into GitHub that makes automatic publishing easy.
