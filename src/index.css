@@ -50,7 +50,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 @keyframes spin {
